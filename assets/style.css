@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.maindiv {
+    width: 90%;
+    height: 90%;
+    background-color: #0D192C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background-color: #15263F;
+    padding: 24px;
+}
+
+
+
+section>div {
+    position: relative;
+}
+
+.topimage {
+    width: 100%;
+    height: 302px;
+    position: absolute;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 248, 0.5);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+section>div>img {
+    max-width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+
+section>div:hover .topimage {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+
+}
+
+
+
+
+section>h1 {
+    padding-top: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+section>h1:hover {
+    color: #00FFF8;
+    transition: 1s;
+}
+
+
+
+section>p {
+    margin-top: 16px;
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px 24px;
+}
+
+article>div {
+    display: flex;
+    align-items: center;
+
+}
+
+article>div>img {
+    margin-right: 7px;
+}
+
+
+article>div>span {
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+article>div>p {
+    display: inline;
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #2E405A;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+footer>img {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+
+}
+
+footer>p {
+    margin-left: 16px;
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer>p>span {
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+footer>p>span:hover {
+    color: #00FFF8;
+    transition: 1s;
+}
