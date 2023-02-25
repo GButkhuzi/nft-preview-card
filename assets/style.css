@@ -25,7 +25,6 @@ body {
 .maindiv {
     width: 90%;
     height: 90%;
-    max-width: 1440px;
     background-color: #0D192C;
     color: white;
     display: flex;
@@ -177,7 +176,7 @@ footer>p>span:hover {
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1140px) {
 
     .maindiv {
         width: 100%;
